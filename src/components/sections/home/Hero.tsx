@@ -29,6 +29,7 @@ const Hero = () => {
               src={"/images/kohi.png"}
               alt="hero"
               fill
+              sizes="auto"
               className=""
             ></Image>
           </div>

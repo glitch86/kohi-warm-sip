@@ -38,7 +38,7 @@ const TopPicks = () => {
 
 
       {/* card container  */}
-      <div className="flex gap-9 w-fit mx-auto">
+      <div className="flex gap-9 w-fit mx-auto my-4">
         {
           products.map( product => <ProductCard key={product.id} product={product}></ProductCard>)
         }

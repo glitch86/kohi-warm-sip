@@ -28,7 +28,7 @@ const TopPicks = () => {
       <div className="text-secondary flex justify-between items-center">
         <div>
           <p>Our Favourite</p>
-          <h2 className="text-primary text-3xl">Top Pics</h2>
+          <h2 className="text-primary text-3xl">Top Picks</h2>
         </div>
         <Link href={"/menu"} className="flex items-center gap-1">
           <span>View Full Menu</span>

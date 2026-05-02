@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="z-50 fixed top-0 w-full bg-accent/60 backdrop-blur-2xl">
       <div className="container mx-auto flex justify-between">
         <Logo></Logo>
-        <NavigationMenu className="mx-auto border-3 border-primary/70 border-t-0 rounded-b-2xl">
+        <NavigationMenu className="mx-auto rounded-b-2xl">
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
